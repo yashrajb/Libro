@@ -1,0 +1,30 @@
+.navbar-default {
+	
+background-color:#4A148C!important;
+border:0px !important;
+padding:8px !important;
+border-radius:0px !important;
+}
+
+.navbar-collapse {
+	border:0px !important;
+	border-color:none !important;
+}
+
+.navbar-brand {
+	color:white !important;
+	font-family:'lato' !important;
+	font-size:28px !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white !important;
+	font-family:'lato' !important;
+	font-size:15px !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color:white !important;
+	text-decoration: underline !important;
+}
+

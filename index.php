@@ -32,7 +32,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet"/>
  </head>
-<body>
+<body class="container-fluid">
 
 <?php 
 
@@ -40,16 +40,13 @@
 
 ?>
 
-<div class="jumbotron" id="big-text">
-
 
 <h2>Share books , Share Knowledge</h2>
 <p>Libro is web platform where you can share books and search books</p>
-<a class="btn btn-default" href="#">Sign up</a>
-<a class="btn btn-default" href="#">Login</a>
+<a class="btn btn-default" href="<?php echo absolute_path.'sign-up.php'; ?>">Sign up</a>
+<a class="btn btn-default" href="<?php echo absolute_path.'log-in.php'; ?>">Login</a>
 
 
-</div>
 
 
 </body>
